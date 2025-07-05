@@ -1,11 +1,13 @@
 import BrandPromise from "@/components/BrandPromise";
-import Navbar from "@/components/Navbar";
+import Contact from "@/components/Contact";
+import HomeSlide from "@/components/HomeSlide";
+
 import ServiceCard from "@/components/ServiceCard";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+     
       <section className=" bg-black/95">
         {/* Hero Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-48">
@@ -52,7 +54,9 @@ export default function Home() {
         </div>
       </section>
       <BrandPromise/>
-      
+      <HomeSlide/>
+      <Contact/>
+
     </>
   );
 }
