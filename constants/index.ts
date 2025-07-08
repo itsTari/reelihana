@@ -73,10 +73,10 @@ export const makeupLooks: Look[] = [
 export const imageLinks = [
   { href: "#", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
   { href: "#", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
-  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:' Career' },
-  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'Our Services' },
-  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Behind the Scenes' },
-  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews' },
+  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'Our Services '},
+  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'Classes'},
+  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Behind the Scenes'},
+  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
 ];
 
 export const footerItems =[
