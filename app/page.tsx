@@ -3,6 +3,7 @@ import Contact from "@/components/Contact";
 import HomeSlide from "@/components/HomeSlide";
 
 import ServiceCard from "@/components/ServiceCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -27,12 +28,14 @@ export default function Home() {
               >
                 Book Your Session
               </button>
+              <Link href='/portfolio'>
               <button
                 // onClick={() => setIsLoggedIn(true)}
                 className="px-8 py-4 border-2 text-white font-semibold rounded-full hover:bg-white hover:text-black hover:border-black transition-all duration-200"
               >
                 View Portfolio
               </button>
+              </Link>
             </div>
           </div>
         </div>
