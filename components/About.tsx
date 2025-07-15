@@ -56,12 +56,12 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="w-full  bg-gray-200 px-10">
+      <section className="w-full bg-[#F6F1EC] text-[#1B1B1B] p-12">
         <h1 className="h1 font-heading py-10">
           Mission Statement and Artistic Philosophy
         </h1>
         <div className="mt-20 flex flex-col md:grid lg:grid-cols-4 md:grid-cols-2 gap-8 lg:gap-0 py-10 px-5 lg:px-0 lg:py-0 bg-white">
-          <div className="item animate-from-top px-5  flex items-center  font-bold">
+          <div className="item animate-from-top px-5 flex items-center text-center md:text-left font-bold">
             <p className="flex flex-col gap-6 leading-7">
               <span className="h1 font-heading font-bold">
                 Mission Statement
@@ -80,7 +80,7 @@ const About = () => {
                     <h1>Artistic Philosophy</h1>
                     <p>Rellihana's approach to makeup artistry is rooted in three core principles:</p>
                 </div> */}
-          <div className="item animate-from-top px-5  flex items-center  font-bold ">
+          <div className="item animate-from-top px-5  flex items-center text-center md:text-left font-bold ">
             <p className="flex flex-col gap-6 leading-7">
               <span className="h1 font-heading  font-bold">
                 Enhance, Don't Mask
@@ -99,7 +99,7 @@ const About = () => {
             className="lg:h-90 lg:w-89 hidden md:flex border-2  bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
           ></div>
-          <div className="item animate-from-bottom px-5  flex items-center  font-bold ">
+          <div className="item animate-from-bottom px-5  flex items-center text-center md:text-left font-bold ">
             <p className="flex flex-col gap-6 leading-7">
               <span className="h1 font-heading font-bold">
                 Artistry Meets Individuality
@@ -114,7 +114,7 @@ const About = () => {
             className="lg:h-90 lg:w-89  hidden md:flex border-2 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
           ></div>
-          <div className="item animate-from-bottom px-5 flex items-center font-bold">
+          <div className="item animate-from-bottom px-5 flex items-center text-center md:text-left font-bold">
             <p className="flex flex-col gap-6 leading-7">
               <span className="h1 font-heading font-bold">Timeless Beauty</span>
               While trends come and go, true beauty is timeless. Rellihana

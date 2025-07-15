@@ -2,7 +2,11 @@
 import { MenuIcon } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({variant = 'light'}: {variant?: 'light' | 'dark'}) => {
+    const navbarStyles = {
+        light: 'bg-white/95 text-black',
+        dark: 'bg-black/95 text-white'
+  };
     const [scroll, setScroll] = useState(false)
 
     useEffect(()=>{
@@ -14,7 +18,7 @@ const Navbar = () => {
         return ()=> window.removeEventListener('scroll', handleScroll)
     },[])
   return (
-    <nav className={`flex h-16 p-4 fixed top-0 w-full z-50 transition-all duration-1000 ease-in-out ${ scroll?'bg-white/95 text-black': 'bg-transparent text-white'} `}>
+    <nav className={`flex h-16 p-4 fixed top-0 w-full z-50 transition-all duration-1000 ease-in-out ${ scroll? navbarStyles[variant] : 'bg-transparent text-white'} `}>
         <div className='w-2/5'>
             <MenuIcon size={30} />
         </div>

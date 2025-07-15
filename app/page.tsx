@@ -1,8 +1,5 @@
 import BrandPromise from "@/components/BrandPromise";
-import Contact from "@/components/Contact";
 import HomeSlide from "@/components/HomeSlide";
-
-import ServiceCard from "@/components/ServiceCard";
 import Link from "next/link";
 
 export default function Home() {
@@ -22,12 +19,14 @@ export default function Home() {
               Refined elegance in every shade  Profressional makeup service for every skin tone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href='/service'>
               <button
                 // onClick={() => setCurrentView("services")}
                 className="px-8 py-4 bg-gradient-to-r from-[#EAD8C0] via-[#C6A98D] to-[#8B6A5C] text-black font-semibold rounded-full hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200"
               >
                 Book Your Session
               </button>
+              </Link>
               <Link href='/portfolio'>
               <button
                 // onClick={() => setIsLoggedIn(true)}
@@ -40,25 +39,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-       
-      <section>
-        {/* Services Preview */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold font-heading text-black mb-4">
-                OUR SERVICES
-            </h2>
-            <p className="text-xl text-black font-body">
-              Choose the perfect makeup experience for you
-            </p>
-          </div>
-            
-            <ServiceCard/>
-        </div>
-      </section>
       <BrandPromise/>
       <HomeSlide/>
-      <Contact/>
 
     </>
   );
