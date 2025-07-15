@@ -54,12 +54,12 @@ export const makeupLooks: Look[] = [
     description: "Soft, radiant glow with neutral tones for weddings."
   },
   {
-    image: "/sample-6.jpg",
+    image: "/sample-3.jpg",
     title: "Editorial Chic",
     description: "Creative and vibrant colors perfect for photo shoots."
   },
   {
-    image: "/sample-3.jpg",
+    image: "/sample-2.jpeg",
     title: "Natural Day Look",
     description: "Subtle tones for everyday beauty and freshness."
   },
@@ -68,15 +68,20 @@ export const makeupLooks: Look[] = [
     title: "Party Glitter",
     description: "Shimmer and sparkles that shine at every party."
   },
+  {
+    image: "/sample-3.jpg",
+    title: "Editorial Chic",
+    description: "Creative and vibrant colors perfect for photo shoots."
+  },
 ];
 
 export const imageLinks = [
-  { href: "#", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
-  { href: "#", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
-  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'Our Services '},
-  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'Classes'},
-  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Behind the Scenes'},
-  { href: "#", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
+  { href: "/portfolio", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
+  { href: "/portfolio", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
+  { href: "/service", image: "/sample-5.jpg", alt: "linkImg3", title:'Our Services '},
+  { href: "/training", image: "/sample-5.jpg", alt: "linkImg3", title:'Classes'},
+  { href: "/product", image: "/sample-6.jpg", alt: "linkImg4", title:' Our Products'},
+  { href: "/portfolio", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
 ];
 
 export const footerItems =[

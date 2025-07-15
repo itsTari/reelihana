@@ -2,61 +2,53 @@ import React from "react";
 
 const BrandPromise = () => {
   return (
-    <section className="bg-[#F6F1EC] text-[#1B1B1B] py-20 px-6 text-center">
-      <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-10">
-        Our Commitment to Clean Beauty
-      </h2>
+    <section className="bg-[#F6F1EC] text-[#1B1B1B] py-20 text-center">
       <div className=" relative grid gap-10 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-        {/* Vegan & Cruelty-Free */}
-        <div className="relative flex flex-col items-center text-center px-4">
-          <div className="text-4xl mb-4">🌱</div>
-          <h3 className="text-xl font-medium mb-2">Vegan & Cruelty-Free</h3>
+        <div className="relative flex flex-col items-center text-center px-2">
+          <h3 className="text-xl font-medium mb-2">Mission Statement</h3>
           <p className="text-sm text-[#4B4B4B]">
-            We only use certified cruelty-free and vegan products for every
-            service. Compassion meets beauty in every session.
-          </p>
-            <div className='absolute inset-0.5'>
-                <div className='absolute inset-0 opacity-0 transition-opacity hover:opacity-10'><img src='/globe.svg' className='w-full h-full object-cover bg-center'/></div>
-            </div>
-        </div>
-
-        {/* Skin Tone Inclusive */}
-        <div className="flex flex-col items-center text-center px-4">
-          <div className="text-4xl mb-4">🧬</div>
-          <h3 className="text-xl font-medium mb-2">Skin Tone Inclusive</h3>
-          <p className="text-sm text-[#4B4B4B]">
-            Every face is welcome. We specialize in tailoring looks for all skin
-            tones, undertones, and textures no one is left out.
+           "At Rellihana, we believe that true beauty lies in authenticity
+              enhanced, not hidden. Our mission is to empower every client to
+              feel confident, radiant, and uniquely themselves through the
+              transformative power of makeup artistry."
           </p>
         </div>
 
-        {/* Dermatologist Tested */}
         <div className="flex flex-col items-center text-center px-4">
-          <div className="text-4xl mb-4">🧖🏾‍♀️</div>
-          <h3 className="text-xl font-medium mb-2">Dermatologist Tested</h3>
+          <h3 className="text-xl font-medium mb-2">Enhance, Don't Mask</h3>
           <p className="text-sm text-[#4B4B4B]">
-            We prioritize your skin&apos;s health by selecting only safe,
-            dermatologist-approved products and techniques in every service.
+           Every face tells a story, and makeup should amplify that narrative
+              rather than rewrite it. Rellihana focuses on highlighting each
+              client's natural features while addressing their specific needs
+              and desires.
           </p>
         </div>
 
-        {/* Natural Ingredients */}
-        <div className="flex flex-col items-center text-center px-4">
-          <div className="text-4xl mb-4">🌿</div>
-          <h3 className="text-xl font-medium mb-2">Natural Ingredients</h3>
+        <div className="flex flex-col items-center text-center">
+          <h3 className="text-xl font-medium mb-2">Artistry Meets Individuality</h3>
           <p className="text-sm text-[#4B4B4B]">
-            From prep to finish, we lean into natural, skin-kind products that
-            enhance your beauty  not mask it.
+           No two clients are alike, and neither should their makeup be. Each
+              look is carefully crafted to reflect the individual's personality,
+              lifestyle, and the occasion, ensuring that the final result feels
+              authentically "them."
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center text-center px-2">
+          <h3 className="text-xl font-medium mb-2">Timeless Beauty</h3>
+          <p className="text-sm text-[#4B4B4B]">
+           While trends come and go, true beauty is timeless. Rellihana
+              creates looks that not only capture the moment but will look
+              stunning in photographs for years to come, focusing on techniques
+              and styles that enhance rather than date..
           </p>
         </div>
       </div>
 
       <p className="mt-16 max-w-3xl mx-auto text-sm text-[#333]">
-        Whether it&apos;s for a wedding, photoshoot, event, or a flawless everyday
-        look, our professional artists bring skill, care, and integrity to
-        every face. Our beauty philosophy is simple: look good, feel good, and
-        know you&apos;re in the safest, most reliable hands.
+       "I don&apos;t just apply makeup I create <span className="text-lg">confidence, capture moments</span>, and celebrate the <span className="text-lg">unique beauty</span> that exists within every person who sits in my chair".
       </p>
+      <p>Reelihana</p>
     </section>
   );
 };

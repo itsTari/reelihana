@@ -17,7 +17,7 @@ const Contact = () => {
       <div className=" flex flex-col md:flex-row lg:flex-col gap-8 border-b py-4 border-b-gray-500 ">
         <ul className="grid grid-cols-2 lg:flex gap-6">
           {footerItems.map((item, index) => (
-            <li key={index} className=" font-body font-bold uppercase text-xl text-[#C6A98D] ">
+            <li key={index} className=" font-body font-bold uppercase text-xl ">
               {item}
             </li>
           ))}

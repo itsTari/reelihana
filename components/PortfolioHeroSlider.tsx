@@ -75,7 +75,7 @@ const PortfolioHeroSlider = () => {
               {/* Content */}
               <div className="absolute inset-0 flex items-center">
                 <div className="container mx-auto px-6 lg:px-12">
-                  <div className="max-w-2xl">
+                  {/* <div className="max-w-2xl">
                     <div
                       className={`transform transition-all duration-700 delay-200 ${
                         index === currentSlide
@@ -96,7 +96,7 @@ const PortfolioHeroSlider = () => {
                         <span className="relative z-10">{slide.cta}</span>
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

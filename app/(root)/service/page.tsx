@@ -3,8 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <section>
-        {/* Services Preview */}
+    <section className='py-12'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold font-heading text-black mb-4">

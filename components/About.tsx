@@ -1,11 +1,10 @@
 import React from "react";
+import BrandPromise from "./BrandPromise";
 
 const About = () => {
   return (
     <>
       <section className="pt-30 md:pt-40 pb-20 px-10 font-body ">
-        {/* quotes for an intro by the Reelihana */}
-        {/* "I don't just apply makeup – I create confidence, capture moments, and celebrate the unique beauty that exists within every person who sits in my chair." */}
         <h1 className="h1 font-heading pb-10">Our Story</h1>
         <div className="flex flex-col lg:flex-row pt-10 gap-20 w-full items-center">
           <img
@@ -56,74 +55,13 @@ const About = () => {
           </div>
         </div>
       </section>
+      
       <section className="w-full bg-[#F6F1EC] text-[#1B1B1B] p-12">
         <h1 className="h1 font-heading py-10">
           Mission Statement and Artistic Philosophy
         </h1>
-        <div className="mt-20 flex flex-col md:grid lg:grid-cols-4 md:grid-cols-2 gap-8 lg:gap-0 py-10 px-5 lg:px-0 lg:py-0 bg-white">
-          <div className="item animate-from-top px-5 flex items-center text-center md:text-left font-bold">
-            <p className="flex flex-col gap-6 leading-7">
-              <span className="h1 font-heading font-bold">
-                Mission Statement
-              </span>
-              "At Rellihana, we believe that true beauty lies in authenticity
-              enhanced, not hidden. Our mission is to empower every client to
-              feel confident, radiant, and uniquely themselves through the
-              transformative power of makeup artistry."
-            </p>
-          </div>
-          <div
-            className="lg:h-90 lg:w-89 hidden md:flex bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
-          ></div>
-          {/* <div className='item animate-from-bottom bg-[#f5cba7] p-6 rounded-lg flex items-center justify-center text-xl font-bold '>
-                    <h1>Artistic Philosophy</h1>
-                    <p>Rellihana's approach to makeup artistry is rooted in three core principles:</p>
-                </div> */}
-          <div className="item animate-from-top px-5  flex items-center text-center md:text-left font-bold ">
-            <p className="flex flex-col gap-6 leading-7">
-              <span className="h1 font-heading  font-bold">
-                Enhance, Don't Mask
-              </span>
-              Every face tells a story, and makeup should amplify that narrative
-              rather than rewrite it. Rellihana focuses on highlighting each
-              client's natural features while addressing their specific needs
-              and desires.
-            </p>
-          </div>
-          <div
-            className="lg:h-90 lg:w-89 hidden md:flex bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
-          ></div>
-          <div
-            className="lg:h-90 lg:w-89 hidden md:flex border-2  bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
-          ></div>
-          <div className="item animate-from-bottom px-5  flex items-center text-center md:text-left font-bold ">
-            <p className="flex flex-col gap-6 leading-7">
-              <span className="h1 font-heading font-bold">
-                Artistry Meets Individuality
-              </span>
-              No two clients are alike, and neither should their makeup be. Each
-              look is carefully crafted to reflect the individual's personality,
-              lifestyle, and the occasion, ensuring that the final result feels
-              authentically "them."
-            </p>
-          </div>
-          <div
-            className="lg:h-90 lg:w-89  hidden md:flex border-2 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${`/sample-3.jpg`})` }}
-          ></div>
-          <div className="item animate-from-bottom px-5 flex items-center text-center md:text-left font-bold">
-            <p className="flex flex-col gap-6 leading-7">
-              <span className="h1 font-heading font-bold">Timeless Beauty</span>
-              While trends come and go, true beauty is timeless. Rellihana
-              creates looks that not only capture the moment but will look
-              stunning in photographs for years to come, focusing on techniques
-              and styles that enhance rather than date.
-            </p>
-          </div>
-        </div>
+
+        <BrandPromise/>
       </section>
     </>
   );
