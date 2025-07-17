@@ -193,3 +193,31 @@
     @apply bg-background text-foreground;
   }
 }
+
+.swiper {
+  --swiper-navigation-color: white;
+  --swiper-navigation-size: 16px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+ background: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  /* font-weight: 900 !important; */
+  margin-top: -25px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 1);
+  --swiper-navigation-color: #29292b;
+  transform: scale(1.05);
+}
+
+.swiper-button-disabled {
+  opacity: 0.3;
+}

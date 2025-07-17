@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
      
-      <section className=" flex flex-col items-center justify-center relative w-full bg-cover bg-center bg-no-repeat h-screen" style={{ background: 'url(/sample-6.jpg)'}}>
+      <section className=" flex flex-col items-center justify-center relative bg-cover bg-center bg-no-repeat h-screen" style={{ background: 'url(/sample-6.jpg)'}}>
           <div className="absolute inset-0 bg-black/75"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex items-center flex-col gap-5">
