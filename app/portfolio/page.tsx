@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import PortfolioHeroSlider from '@/components/PortfolioHeroSlider'
 import PortfolioSlider from '@/components/PortfolioSlider'
+import Testimonial from '@/components/Testimonial'
 import React from 'react'
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
     <>
         <PortfolioHeroSlider/>
         <About/>
+        <Testimonial/>
         <PortfolioSlider/>
     </>
   )

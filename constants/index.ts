@@ -28,53 +28,16 @@
     }
   ];
 
-  export const portfolio = [
-    { id: 1, title: 'Glamorous Look', image: '✨', category: 'Evening' },
-    { id: 2, title: 'Natural Bridal', image: '🌸', category: 'Bridal' },
-    { id: 3, title: 'Bold & Beautiful', image: '💄', category: 'Special Event' },
-    { id: 4, title: 'Soft Glow', image: '🌟', category: 'Daily' }
-  ];
+  // export const portfolio = [
+  //   { id: 1, title: 'Glamorous Look', image: '✨', category: 'Evening' },
+  //   { id: 2, title: 'Natural Bridal', image: '🌸', category: 'Bridal' },
+  //   { id: 3, title: 'Bold & Beautiful', image: '💄', category: 'Special Event' },
+  //   { id: 4, title: 'Soft Glow', image: '🌟', category: 'Daily' }
+  // ];
 
 
-  type Look= {
-  image: string;
-  title: string;
-  description: string;
-};
 
-export const makeupLooks: Look[] = [
-  {
-    image: "/sample-6.jpg",
-    title: "Glam Night",
-    description: "A bold red lip with smoky eyes for a night out."
-  },
-  {
-    image: "/sample-5.jpg",
-    title: "Bridal Beauty",
-    description: "Soft, radiant glow with neutral tones for weddings."
-  },
-  {
-    image: "/sample-3.jpg",
-    title: "Editorial Chic",
-    description: "Creative and vibrant colors perfect for photo shoots."
-  },
-  {
-    image: "/sample-2.jpeg",
-    title: "Natural Day Look",
-    description: "Subtle tones for everyday beauty and freshness."
-  },
-  {
-    image: "/sample-6.jpg",
-    title: "Party Glitter",
-    description: "Shimmer and sparkles that shine at every party."
-  },
-  {
-    image: "/sample-3.jpg",
-    title: "Editorial Chic",
-    description: "Creative and vibrant colors perfect for photo shoots."
-  },
-];
-
+// home page
 export const imageLinks = [
   { href: "/portfolio", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
   { href: "/portfolio", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
@@ -126,3 +89,59 @@ export const slides = [
       cta: 'Learn More'
     }
   ];
+
+  // testimonial slider
+  export const testimonial = [
+    {
+      id:'1',
+      image:'/sample-3.jpg',
+      message:`“Reelihana's makeup services are in a league of their own! From the moment she starts working, you can tell you're in the hands of a true professional. Her attention to detail is incredible, and she has this gift for knowing exactly what will look best on you. The makeup lasts all day and photographs beautiful. I always get so many compliments! ”`,
+      name:'Henpee'
+    },
+    {
+      id:'2',
+      image:'/sample-3.jpg',
+      message:`“I've never felt more stunning than after having my makeup done by Reelihana! Her artistry is exceptional every brushstroke is precise and the final result is always breathtaking. She has this amazing ability to enhance your natural beauty while creating exactly the look you envision.”`,
+      name:'Ijay'
+    }
+  ]
+
+    // gallary
+//   type Look= {
+//   image: string;
+//   title: string;
+//   description: string;
+// };
+
+export const makeupLooks = [
+  {
+    image: "/sample-6.jpg",
+    title: "Glam Night",
+    description: "A bold red lip with smoky eyes for a night out."
+  },
+  {
+    image: "/sample-5.jpg",
+    title: "Bridal Beauty",
+    description: "Soft, radiant glow with neutral tones for weddings."
+  },
+  {
+    image: "/sample-3.jpg",
+    title: "Editorial Chic",
+    description: "Creative and vibrant colors perfect for photo shoots."
+  },
+  {
+    image: "/sample-2.jpeg",
+    title: "Natural Day Look",
+    description: "Subtle tones for everyday beauty and freshness."
+  },
+  {
+    image: "/sample-6.jpg",
+    title: "Party Glitter",
+    description: "Shimmer and sparkles that shine at every party."
+  },
+  {
+    image: "/sample-3.jpg",
+    title: "Editorial Chic",
+    description: "Creative and vibrant colors perfect for photo shoots."
+  },
+];

@@ -57,10 +57,9 @@ const About = () => {
       </section>
       
       <section className="w-full bg-[#F6F1EC] text-[#1B1B1B] p-12">
-        <h1 className="h1 font-heading py-10">
+        <h1 className="h1 font-heading !font-light pb-10 pt-4">
           Mission Statement and Artistic Philosophy
         </h1>
-
         <BrandPromise/>
       </section>
     </>
