@@ -1,6 +1,6 @@
 import About from '@/components/About'
 import PortfolioHeroSlider from '@/components/PortfolioHeroSlider'
-import PortfolioSlider from '@/components/PortfolioSlider'
+import GallarySlide from '@/components/GallarySlide'
 import Testimonial from '@/components/Testimonial'
 import React from 'react'
 
@@ -10,7 +10,7 @@ const page = () => {
         <PortfolioHeroSlider/>
         <About/>
         <Testimonial/>
-        <PortfolioSlider/>
+        <GallarySlide/>
     </>
   )
 }

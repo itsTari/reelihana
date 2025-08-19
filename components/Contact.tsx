@@ -40,7 +40,7 @@ const Contact = () => {
         <Link href="#" target="_blank" rel="noopener noreferrer">
           <FaYoutube className="hover:text-red-600 transition-all duration-300 hover:scale-110" />
         </Link>
-        <Link href="#" target="_blank" rel="noopener noreferrer">
+        <Link href="https://wa.me/2349065602994?text=Hello%20Reelihana,%20I%20would%20like%20to%20know%20more%20about%20your%20services%20" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="hover:text-green-600 transition-all duration-300 hover:scale-110" />
         </Link>
         <Link href="#" target="_blank" rel="noopener noreferrer">

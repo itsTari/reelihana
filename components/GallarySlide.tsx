@@ -1,4 +1,4 @@
-// components/PortfolioSlider.tsx
+// components/GallarySlide.tsx
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -8,9 +8,10 @@ import { makeupLooks } from "@/constants";
 
 
 
-export default function PortfolioSlider() {
+const GallarySlide = () => {
   return (
-    <div className="py-15 w-full mx-auto p-4">
+    <div className="w-full mx-auto p-10 bg-black">
+      <h1 className="text-white font-medium text-3xl pt-10 pb-16 font-body">Explore Our Makeup Gallary</h1>
       <Swiper
         modules={[Navigation]}
         spaceBetween={30}
@@ -36,3 +37,4 @@ export default function PortfolioSlider() {
     </div>
   );
 }
+export default GallarySlide

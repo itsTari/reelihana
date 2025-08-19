@@ -1,5 +1,5 @@
 import React from 'react'
-import PortfolioSlider from './PortfolioSlider'
+import PortfolioSlider from './GallarySlide'
 import ScrollableHomeGallary from './ScrollableHomeGallary'
 
 const HomeSlide = () => {

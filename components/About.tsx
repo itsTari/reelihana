@@ -33,7 +33,7 @@ const About = () => {
               across multiple specializations.{" "}
               <span className="text-lg">
                 <br />
-                Our expertise spans:
+                Her expertise spans:
               </span>
             </p>
             <p>
@@ -50,7 +50,7 @@ const About = () => {
             </p>
             <p>
               <span className="font-semibold text-xl">Corporate & Event:</span>
-              Professional makeup for headshots, galas, and special occasions
+              Professional makeup for headshots, red carpet events, and special occasions
             </p>
           </div>
         </div>
