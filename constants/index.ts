@@ -47,6 +47,7 @@ export const imageLinks = [
   { href: "/portfolio", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
 ];
 
+
 export const footerItems =[
     'about reelihana', 'brand promise', 'contact us', 'commitments'
 ]
@@ -106,13 +107,6 @@ export const slides = [
     }
   ]
 
-    // gallary
-//   type Look= {
-//   image: string;
-//   title: string;
-//   description: string;
-// };
-
 export const makeupLooks = [
   {
     image: "/sample-6.jpg",
@@ -144,4 +138,11 @@ export const makeupLooks = [
     title: "Editorial Chic",
     description: "Creative and vibrant colors perfect for photo shoots."
   },
+];
+
+export const classLinks = [
+  { href: "#", image: "/sample-5.jpg", alt: "linkImg1", title:'ALL COURSES' },
+  { href: "#", image: "/sample-3.jpg", alt: "linkImg2", title:'BEGINNERS CLASS' },
+  { href: "#", image: "/sample-6.jpg", alt: "linkImg3", title:'PROFESSIONAL CLASS '},
+  { href: "#", image: "/sample-5.jpg", alt: "linkImg3", title:'ONLINE CLASSES'}
 ];

@@ -1,5 +1,7 @@
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
+import { classLinks } from "@/constants";
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
@@ -11,42 +13,31 @@ const page = () => {
           <h2 className="text-2xl lg:text-3xl font-bold font-heading text-[#3D2B20] mb-4">
             OUR SERVICES
           </h2>
-          <p className="text-xl text-[#3D2B20] font-body">
+          <p className="text-xl text-[#3D2B20] font-body capitalize">
             Choose the perfect makeup experience for you
           </p>
         </div>
 
         <ServiceCard />
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="font-heading h2 pb-16 text-[#3D2B20]">Courses</h2>
-        <div className="grid grid-cols-2 gap-8">
-          <Button
-            variant="default"
-            className="rounded-full py-10 px-30 lg:text-3xl text-2xl bg-black hover:bg-gray-800 text-white border-gray-700 transition-all duration-300 hover:shadow-lg hover:scale-105"
-          >
-            All
-          </Button>
-          <Button
-            variant="default"
-            className="rounded-full py-10 px-30 lg:text-3xl text-2xl bg-[#E6C4B0] hover:bg-[#D4B5A0] text-[#3D2B20] border-[#D4B5A0] transition-all duration-300 hover:shadow-lg hover:scale-105"
-          >
-            Beginner
-          </Button>
-          <Button
-            variant="default"
-            className="rounded-full py-10 px-30 lg:text-3xl text-2xl bg-[#DDB8A6] hover:bg-[#C9A992] text-[#3D2B20] border-[#C9A992] transition-all duration-300 hover:shadow-lg hover:scale-105"
-          >
-            Advance
-          </Button>
-          <Button className="rounded-full py-10 px-30 lg:text-3xl text-2xl bg-[#D4A894] hover:bg-[#B89584] text-[#3D2B20] border-[#B89584] transition-all duration-300 hover:shadow-lg hover:scale-105">
-            Professional
-          </Button>
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center bg-[#e6dad1]">
+        <h2 className="text-2xl lg:text-3xl font-bold font-heading text-black mb-4 uppercase">
+            Our classes
+          </h2>
+        <h2 className="font-body font-medium text-xl pb-16 text-black capitalize">Be the first to Learn and Level up yor makeup game and position yourself as a pro</h2>
+        <div className="flex flex-col md:flex-row gap-8 justify-between px-30">
+          {classLinks.map((item, id)=>(
+            <div key={id} className=" flex items-end min-w-[250px] h-[400px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${item.image})` }}>
+              <Link href={item.href} className="w-full text-center p-2 bg-[#f6f1ee]">
+                  <p className="font-bold font-body">{item.title}</p>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
       <div className="bg-[#FAF9F7] rounded-2xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="h2">Curated Learning Library</h2>
+          <h2 className="h2 font-heading pb-6">Curated Learning Library</h2>
           <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
             <div className="flex flex-col gap-4">
               {/* Large card */}
