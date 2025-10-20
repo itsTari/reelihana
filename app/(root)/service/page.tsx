@@ -7,21 +7,17 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="pt-12">
-      <div></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <section className="pt-12 bg-[#e6dad1]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <div className="pb-16">
-          <h2 className="text-2xl lg:text-3xl font-bold font-heading text-[#3D2B20] mb-4">
-            OUR SERVICES
-          </h2>
-          <p className="text-xl text-[#3D2B20] font-body capitalize">
+          <p className="text-[#3D2B20] font-body capitalize font-heading text-3xl font-bold">
             Choose the perfect makeup experience for you
           </p>
         </div>
 
         <ServiceCard />
       </div>
-      <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center bg-[#e6dad1]">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h2 className="text-2xl lg:text-3xl font-bold font-heading text-black mb-4 uppercase">
             Our classes
           </h2>

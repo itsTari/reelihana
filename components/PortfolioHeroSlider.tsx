@@ -9,7 +9,6 @@ const PortfolioHeroSlider = () => {
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const nextSlide = () => {
-    // if(isTransitioning) return
     setIsTransitioning(true);
     setCurrentSlide((prev) => (prev + 1) % slides.length);
     setTimeout(() => setIsTransitioning(false), 500);
