@@ -10,7 +10,7 @@ import { makeupLooks } from "@/constants";
 
 const GallarySlide = () => {
   return (
-    <div className="w-full mx-auto p-10 bg-black">
+    <section id="gallery" className="w-full mx-auto p-10 bg-black">
       <h1 className="text-white font-medium text-3xl pt-10 pb-16 font-body">Explore Our Makeup Gallary</h1>
       <Swiper
         modules={[Navigation]}
@@ -34,7 +34,7 @@ const GallarySlide = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   );
 }
 export default GallarySlide

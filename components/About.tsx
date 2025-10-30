@@ -4,7 +4,7 @@ import BrandPromise from "./BrandPromise";
 const About = () => {
   return (
     <>
-      <section className="pt-30 md:pt-40 pb-20 px-10 font-body ">
+      <section id="our-story" className="pt-30 md:pt-40 pb-20 px-10 font-body ">
         <h1 className="h1 font-heading pb-10">Our Story</h1>
         <div className="flex flex-col lg:flex-row pt-10 gap-20 w-full items-center">
           <img

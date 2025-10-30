@@ -1,5 +1,6 @@
 'use client'
 import { MenuIcon } from 'lucide-react'
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 
 const Navbar = ({variant = 'light', color = 'white'}: {variant?: 'light' | 'dark', color?:'white' | 'black'}) => {
@@ -23,9 +24,9 @@ const Navbar = ({variant = 'light', color = 'white'}: {variant?: 'light' | 'dark
     },[])
   return (
     <nav className={`flex h-16 p-4 fixed top-0 w-full z-50 transition-all duration-1000 ease-in-out ${ scroll? navbarStyles[variant] : textColor[color]} `}>
-        <div className='w-2/5'>
+        <Link href='/' className='w-2/5'>
             <MenuIcon size={30} />
-        </div>
+        </Link>
         <div className='flex-1'>
             <h1 className='text-3xl font-heading'>REELIHANA</h1>
         </div>

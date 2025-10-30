@@ -36,15 +36,13 @@ export function Modal({ service, index }: any) {
         <DialogHeader>
           <DialogTitle>Payment Details </DialogTitle>
           <DialogDescription>
-            Copy the details below to pay, after payment click on proceed to
-            share transaction reciept and info on your booking with us or simply
-            chat us for faster bookings
+            {service.extraText ? service.extraText : 'Copy the details below to pay, after payment click on proceed to share transaction reciept and info on your booking with us or simply chat us via Watsapp' }
           </DialogDescription>
         </DialogHeader>
         <div>
           <h2 className="font-bold">Service Summary</h2>
           <div className="flex items-center justify-between text-2xl">
-            <p>{service.name}</p>
+            <div><span className="pr-2">{service.image}</span><span>{service.name}</span></div>
             <p>{service.price}</p>
           </div>
           <div className="grid gap-2 py-3">
@@ -84,7 +82,7 @@ export function Modal({ service, index }: any) {
               Close
             </Button>
           </DialogClose>
-          <Button>Proceed</Button>
+          <Button variant='link'><Link href={index % 3 === 0 ? 'https://forms.gle/UDuESRjdGzzALWXb6' : index % 3 === 1 ? 'https://forms.gle/qPK7kVjVWYNWP9C28' : 'https://forms.gle/XahvyCffsQFVu9eA7'}>Proceed</Link></Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

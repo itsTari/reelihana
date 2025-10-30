@@ -51,7 +51,7 @@ const Contact = () => {
         </Link>
       </div>
       <div className="text-sm text-gray-500">
-        <p >
+        <p>
           &copy; {new Date().getFullYear()} Reelihana Studios. All rights
           reserved. | Crafted with care & creativity.
         </p>

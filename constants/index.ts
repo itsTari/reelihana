@@ -20,31 +20,22 @@
     {
       id: 3,
       name: 'Bridal Package',
-      price: '$110-$130',
+      price: 'Click To Proceed',
       duration: '4 hours',
       description: 'Complete bridal makeup luxury experience',
+      extraText:'You are not advised to pay directly but click on PROCEED to book and we will reach out to you or simply chat us via the Watsapp link',
       image: '💍',
       features: ['Trial session', 'Day-of makeup', 'Touch-up kit', 'Bridal party discounts']
     }
   ];
 
-  // export const portfolio = [
-  //   { id: 1, title: 'Glamorous Look', image: '✨', category: 'Evening' },
-  //   { id: 2, title: 'Natural Bridal', image: '🌸', category: 'Bridal' },
-  //   { id: 3, title: 'Bold & Beautiful', image: '💄', category: 'Special Event' },
-  //   { id: 4, title: 'Soft Glow', image: '🌟', category: 'Daily' }
-  // ];
-
-
-
-// home page
 export const imageLinks = [
-  { href: "/portfolio", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
-  { href: "/portfolio", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
+  { href: "/portfolio#our-story", image: "/sample-3.jpg", alt: "linkImg2", title:'Our Story' },
+  { href: "/portfolio#gallery", image: "/sample-5.jpg", alt: "linkImg1", title:'Explore Our Gallary' },
   { href: "/service", image: "/sample-5.jpg", alt: "linkImg3", title:'Our Services '},
-  { href: "/training", image: "/sample-5.jpg", alt: "linkImg3", title:'Classes'},
+  { href: "/service#classes", image: "/sample-5.jpg", alt: "linkImg3", title:'Classes'},
   { href: "/product", image: "/sample-6.jpg", alt: "linkImg4", title:' Our Products'},
-  { href: "/portfolio", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
+  { href: "/portfolio#reviews", image: "/sample-6.jpg", alt: "linkImg4", title:'Client Reviews'},
 ];
 
 

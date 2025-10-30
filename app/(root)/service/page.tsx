@@ -17,7 +17,7 @@ const page = () => {
 
         <ServiceCard />
       </div>
-      <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+      <div id="classes" className=" mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h2 className="text-2xl lg:text-3xl font-bold font-heading text-black mb-4 uppercase">
             Our classes
           </h2>
